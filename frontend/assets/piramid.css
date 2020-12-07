@@ -1,0 +1,47 @@
+.level-1 {
+	width: 0;
+	height: 0;
+	border-bottom: 40px solid rgb(92, 184, 92);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+}
+.level-2 {
+	height: 0;
+	width: 75pt;
+	border-bottom: 40px solid rgb(92, 184, 92);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+}
+.level-3 {
+	height: 0;
+	width: 120pt;
+	border-bottom: 40px solid rgb(92, 184, 92);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+}
+.level-4 {
+	height: 0;
+	width: 165pt;
+	border-bottom: 40px solid rgb(92, 184, 92);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+}
+.level-5 {
+	height: 0;
+	width: 210pt;
+	border-bottom: 40px solid rgb(92, 184, 92);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+}
+
+/*rgb(68, 157, 68)
+rgb(217, 83, 79)*/
+
+.list_ex{
+	background-color:rgb(92, 184, 92);
+	color:white;
+	border-radius:5px;
+	height: 35px;
+	text-align: center;
+	padding: 4px;
+}

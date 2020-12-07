@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="../frontend/assets/favicon.ico" type="image/x-icon" rel="icon" />
+	<title>QA-System</title>
+
+	<link type="text/css" rel="stylesheet" href="assets/app.css">
+	
+	<link type="text/css" rel="stylesheet" href="../frontend/assets/piramid.css">
+
+	<!--<link type="text/css" rel="stylesheet" href="../frontend/assets/theme.siberia.less">-->
+	
+	<link type="text/css" rel="stylesheet" href="../frontend/assets/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="../frontend/assets/sb-admin-2.css">
+
+
+	<!-- Webix Library 5.2 -->
+	<link type="text/css" rel="stylesheet" href="../frontend/libs/webix/5.2/skins/compact-mod.css">
+	<script type="text/javascript" src="../frontend/libs/webix/5.2/webix.js"></script>
+
+
+
+
+
+	<!-- Development only -->
+	<script type="text/javascript" src="../frontend/libs/less/less.min.js"></script>
+
+	<script type="text/javascript" src="assets/js-cookie/src/js.cookie.js"></script>
+	<!-- The app's logic -->
+	<script type="text/javascript" data-main="app" src="../frontend/libs/requirejs/require.js"></script>
+	<script type="text/javascript">
+		require.config({
+			urlArgs: "bust=" + (new Date()).getTime()
+		});
+	</script>
+
+</head>
+<body></body>
+</html>
